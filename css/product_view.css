@@ -1,0 +1,1024 @@
+nav .country{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.navbar .country {
+  padding: 0 28px 0 35px;
+}
+
+/* ================================= */
+#navber{
+  background: #000000;
+  padding: 10px 0;
+}
+
+#navber ul {
+  display: flex;
+  column-gap: 37px;
+}
+
+#navber ul li a{
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+#navber ul li a i{
+  margin-left: 15px;
+  font-size: 10px;
+}
+
+/* ================================== */
+
+#product_view {
+  padding: 20px 0 0px;
+}
+
+.img-magnifier-container {
+    position:relative;
+    width: 100%;
+}
+
+.img-magnifier-container img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-magnifier-glass {
+    position: absolute;
+    border: 3px solid #000;
+    border-radius: 50%;
+    cursor: none;
+    /*Set the size of the magnifier glass:*/
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+}
+
+  .img-magnifier-container:hover .img-magnifier-glass{
+    opacity: 1;
+  }
+
+  #product_view .dron_slider .img-magnifier-container{
+    border: 1px solid #FF9900;
+}
+
+#product_view .dron_slider ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+#product_view .dron_slider ul li button{
+  font-size: 0;
+  outline: 0;
+  width: 90px;
+  height: 90px;
+  background: transparent;
+  border: 1px solid #FF9900;
+  margin: 19px 0;
+ 
+}
+
+#product_view .dron_slider ul .slick-active {
+    box-shadow: none;
+}
+
+#product_view .dron_slider ul li:first-child button{
+    background: url(../images/dron2.png) no-repeat center/cover;
+}
+
+#product_view .dron_slider ul li:nth-child(2) button{
+    background: url(../images/dron1.png) no-repeat center/cover;
+}
+
+#product_view .dron_slider ul li:nth-child(3) button{
+    background: url(../images/dron3.png) no-repeat center/cover;
+}
+
+#product_view .dron_slider ul li:nth-child(4) button{
+    background: url(../images/dron4.png) no-repeat center/cover;
+}
+
+#product_view .dj h2{
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  color: #000000;
+}
+
+#product_view .dj i{
+  font-size: 20px;
+  color: #FF9900;
+  margin: 10px 0;
+}
+
+#product_view .dj .star{
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#product_view .dj .add{
+  display: flex;
+  justify-content: space-between;
+}
+
+#product_view .dj .add .watch h4 {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+  margin-top: 15px;
+}
+
+#product_view .dj .add .icon a {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  color: #FF9900;
+  margin: -13px 0;
+}
+
+#product_view .dj .add .icon i{
+  font-size: 25px;
+  color: #FF9900;
+  margin-right: 5px;
+}
+
+#product_view .dj{
+  padding-bottom: 14px;
+  border-bottom: 1px solid #D6D0D0;
+}
+
+#product_view .mony h2{
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  color: #000000;
+  margin-top: 20px;
+}
+
+#product_view .mony p{
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  padding: 21px 0 38px;
+}
+
+#product_view .mony .colar{
+  display: flex;
+  align-items: center;
+}
+
+#product_view .mony .colar .black h4{
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+}
+
+#product_view .mony .box{
+  display: flex;
+  column-gap: 7px;
+}
+
+#product_view .mony .box .one{
+  height: 30px;
+  width: 30px;
+  background: #050102;
+  margin-left: 5px;
+}
+
+#product_view .mony .box .two{
+  height: 30px;
+  width: 30px;
+  background: #AAAAAA;
+}
+
+#product_view .mony .box .three{
+  height: 30px;
+  width: 30px;
+  background: #FFFFFF;
+  border: 1px solid #D6D0D0
+}
+
+#product_view .mony .box .four{
+  height: 30px;
+  width: 30px;
+  background: #AAAAAA;
+   
+}
+
+#product_view .buton{
+  padding: 34px 0 18px;
+}
+
+#product_view .buton a{
+  padding: 11px 80px ;
+  background: #FF9900;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  color: #FFFFFF;
+  border-radius: 10px;
+  margin: 0 0 16px;
+  margin-right: 22px;
+}
+
+#product_view .buton .btn2{
+  padding: 11px 13px 11px 24px ;
+  background: #FF9900;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  color: #FFFFFF;
+  border-radius: 10px;
+  margin: 0 0 16px;
+  margin-right: 22px;
+}
+
+#product_view .buton .btn3{
+  padding: 11px 23px 11px 40px ;
+  background: #FF9900;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  color: #FFFFFF;
+  border-radius: 10px;
+  margin-right: 22px;
+}
+
+#product_view .buton .btn4{
+  padding: 11px 60px ;
+  background: #FF9900;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  color: #FFFFFF;
+  border-radius: 10px;
+  margin-right: 22px;
+}
+
+#product_view .delivery{
+  padding: 23px 34px 34px 28px;
+  border: 1px solid #FF9900;
+}
+
+#product_view .delivery .icon{
+  display: flex;
+  justify-content: space-between;
+}
+
+#product_view .delivery .icon p{
+  color: #898989;
+  font-size: 12px;
+  font-family: Nunito Sans;
+  font-weight: 600;
+  margin: 0 0 18px;
+
+}
+
+#product_view .delivery .icon i{
+  width: 10px;
+  height: 10px;
+  font-size: 10px;
+  border-radius: 5px;
+  background-color: #FF9900;
+  color: #FFFFFF;
+  line-height: 10px;
+  text-align: center;
+}
+
+#product_view .delivery .dhaka{
+  display: flex;
+  justify-content: space-between;
+}
+
+#product_view .delivery .dhaka .mohammad i{
+  font-size: 21px;
+  color: #FF9900;
+  margin-right: 10px;
+}
+
+#product_view .delivery .dhaka .mohammad a{
+  color: #000;
+  font-size: 13px;
+  font-family: Nunito Sans;
+  font-weight: 600;
+}
+
+#product_view .delivery .dhaka .text a{
+  padding: 5px 13px;
+  background: #FF9900;
+  color: #FFFFFF;
+  border-radius: 10px;
+  color: #FFF;
+  font-size: 9px;
+  font-family: Nunito Sans;
+  font-weight: 600;
+}
+
+
+#product_view .delivery i{
+  font-size: 21px;
+  color: #FF9900;
+  margin-right: 5px;
+}
+
+#product_view .delivery a{
+  font-size: 13px;
+  font-family: Nunito Sans;
+  font-weight: 600;
+  margin-top: 30px;
+  color: #000;
+}
+
+#product_view .delivery p {
+  color: #000;
+  font-size: 8px;
+  font-family: Nunito Sans;
+  margin-left: 31px;
+}
+
+/* ==================================== */
+
+#share .device{
+  border-bottom: 1px solid #898989;
+  border-top: 1px solid #898989;
+  padding: 0 !important;
+}
+
+#share h3 {
+  color: #000;
+  font-size: 20px;
+  font-family: Nunito Sans;
+  margin-top: 30px;
+}
+
+#share h4{
+  color: #000;
+  font-size: 20px;
+  font-family: Nunito Sans;
+  margin: 10px 0;
+}
+
+#share a {
+  color: #000;
+  font-size: 20px;
+  font-family: Nunito Sans;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  margin-bottom: 30px;
+  margin-top: 21px;
+}
+
+#share .icon1{
+  height: 40px;
+  width: 40px;
+  font-size: 25px;
+  background-color: #4267B2;
+  color: #FFFFFF;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#share .icon2{
+  height: 40px;
+  width: 40px;
+  font-size: 25px;
+  background-color: #00ACEE;
+  color: #FFFFFF;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#share .icon3{
+  height: 40px;
+  width: 40px;
+  font-size: 25px;
+  background-color: #E60023;
+  color: #FFFFFF;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#share .icon4{
+  height: 40px;
+  width: 40px;
+  font-size: 25px;
+  background-color: #25D366;
+  color: #FFFFFF;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 40px;
+}
+
+/* ================================ */
+
+#drone{
+  padding: 50px 0;
+}
+
+#drone .combo{
+  border: 1px solid #FF9900;
+}
+
+#drone .combo h3{
+  padding: 11px 18px;
+  border-bottom: 1px solid #FF9900;
+  color: #F90;
+  font-size: 20px;
+  font-family: Nunito;
+  font-weight: 700;
+}
+
+#drone .combo p{
+  padding: 15px 6px 85px 18px;
+  color: #000;
+  font-size: 15px;
+  font-family: Nunito;
+  font-weight: 300;
+}
+
+#drone .reting{
+  margin-top: 50px;
+  border: 1px solid #FF9900;
+}
+
+#drone .reting h3{
+  padding: 11px 18px;
+  color: #F90;
+  font-size: 20px;
+  font-family: Nunito;
+  font-weight: 700;
+  border-bottom: 1px solid #FF9900;
+}
+
+#drone .rating_part{
+  display: flex;
+  column-gap: 20px;
+}
+
+#drone .rating_part .rating{
+  padding: 0 20px 25px 19px;
+}
+
+#drone .rating_part .rating h2{
+  color: #000;
+  font-size: 76px;
+  font-family: Nunito;
+  font-weight: 800;
+  display: flex;
+}
+
+#drone .rating_part .rating p{
+  color: #000;
+  font-size: 40px;
+  font-family: Nunito;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+}
+
+#drone .rating_part .rating i {
+  font-size: 29px;
+  color: #FF9900;
+  margin: -8px 0;
+}
+
+#drone .rating_part .rating .star {
+  font-size: 29px;
+  color: #AAAAAA;
+  margin: -8px 0;
+}
+
+#drone .rating_part .rating h4{
+  color: #000;
+  font-size: 20px;
+  font-family: Nunito Sans;
+  font-weight: 600;
+  margin-top: 23px;
+}
+
+#drone .rating_part .star_icon .icon i{
+  font-size: 16px;
+  color: #FF9900;
+}
+
+#drone .rating_part .star_icon .icon1 i{
+  font-size: 16px;
+  color: #FF9900;
+  margin-top: 12px;
+}
+
+#drone .rating_part .star_icon .icon1 .star{
+  font-size: 16px;
+  color: #AAAAAA;
+  margin-top: 12px;
+}
+
+#drone .rating_part .star_icon .icon2 i{
+  font-size: 16px;
+  color: #FF9900;
+  margin-top: 12px;
+}
+
+#drone .rating_part .star_icon .icon2 .icon{
+  font-size: 16px;
+  color: #AAAAAA;
+  margin-top: 12px;
+}
+
+#drone .rating_part .star_icon .icon3 i{
+  font-size: 16px;
+  color: #FF9900;
+  margin-top: 12px;
+}
+
+#drone .rating_part .star_icon .icon3 .icon{
+  font-size: 16px;
+  color: #AAAAAA;
+  margin-top: 12px;
+}
+
+#drone .rating_part .star_icon .icon4 i{
+  font-size: 16px;
+  color: #FF9900;
+  margin-top: 12px;
+}
+
+#drone .rating_part .star_icon .icon4 .icon{
+  font-size: 16px;
+  color: #AAAAAA;
+  margin-top: 12px;
+}
+
+#drone .rating_part .div1{
+  width: 225px;
+  height: 10px;
+  background: #999;
+  margin-top: 21px;
+  border-radius: 10px;
+  position: relative;
+}
+
+#drone .rating_part .div1::after{
+  content: "";
+  height: 100%;
+  width: 172px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: #FF9900;
+  border-radius: 10px;
+}
+
+#drone .rating_part .div2{
+  width: 225px;
+  height: 10px;
+  position: relative;
+  background-color: #999;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+#drone .rating_part .div2::after{
+  content: "";
+  height: 100%;
+  width: 106px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: #FF9900;
+  border-radius: 10px;
+}
+
+#drone .rating_part .div3{
+  width: 225px;
+  height: 10px;
+  position: relative;
+  background-color: #999;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+#drone .rating_part .div3::after{
+  content: "";
+  height: 100%;
+  width: 73px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: #FF9900;
+  border-radius: 10px;
+}
+
+#drone .rating_part .div4{
+  width: 225px;
+  height: 10px;
+  position: relative;
+  background-color: #999;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+#drone .rating_part .div4::after{
+  content: "";
+  height: 100%;
+  width: 27px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: #FF9900;
+  border-radius: 10px;
+}
+
+#drone .rating_part .div5{
+  width: 225px;
+  height: 10px;
+  position: relative;
+  background-color: #999;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+#drone .rating_part .div5::after{
+  content: "";
+  height: 100%;
+  width: 14px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: #FF9900;
+  border-radius: 10px;
+}
+
+#drone .rating_part .number{
+  margin-top: 20px;
+}
+
+#drone .rating_part .number p{
+  color: #000;
+  font-size: 13px;
+  font-family: Nunito Sans;
+  font-weight: 600;
+  line-height: 15px;
+}
+
+#drone .rating_part .number .no1{
+  margin-top: 14px;
+}
+
+#drone .rating_part .number .no2{
+  margin-top: 15px;
+}
+
+#drone .rating_part .number .no3{
+  margin-top: 15px;
+}
+
+#drone .rating_part .number .no4{
+  margin-top: 15px;
+}
+
+#drone .rating_part{
+  border-bottom: 1px solid #FF9900;
+}
+
+#drone .reting .rivew_p{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #FF9900;
+}
+
+#drone .reting .rivew_p .review h6{
+  color: #F90;
+  font-size: 20px;
+  font-family: Nunito;
+  font-weight: 700;
+  padding: 13px 0 13px 19px;
+}
+
+#drone .reting .rivew_p .text{
+  padding: 9px 42px 6px 59px;
+  border-left: 1px solid #F90;
+  color: #898989;
+  font-size: 16px;
+  font-family: Nunito;
+}
+
+#drone .reting .inner_icon{
+  padding: 0 20px 14px;
+}
+
+#drone .reting .inner_icon .icon i{
+  font-size: 16px;
+  color: #FF9900;
+}
+
+#drone .reting .inner_icon .icon .star{
+  font-size: 16px;
+  color: #999;
+}
+
+#drone .reting .inner_icon .gem {
+  color: #0D9D01;
+  font-size: 12px;
+  padding-left: 107px;
+}
+
+#drone .reting .inner_icon .text{
+  display: flex;
+  justify-content: space-between;
+}
+
+#drone .reting .inner_icon .text .inner_text{
+  display: flex;
+  column-gap: 22px;
+}
+
+#drone .reting .inner_icon .text .inner_text p{
+  color: #000;
+  font-size: 15px;
+  font-family: Nunito;
+  margin-top: 8px;
+}
+
+#drone .reting .inner_icon .text .inner_text .green{
+  color: #0D9D01;
+  font-size: 15px;
+  font-family: Nunito;
+}
+
+#drone .reting .inner_icon .text .inner_text .date p{
+  color: #000;
+  font-size: 11px;
+  font-family: Nunito;
+}
+
+#drone .reting .inner_icon .repot{
+  color: #000;
+  font-size: 12px;
+  font-family: Nunito;
+}
+
+#drone .reting .inner_icon .image{
+  display: flex;
+  column-gap: 11px;
+  margin-top: 11px;
+}
+
+#drone .reting .inner_icon .like{
+  display: flex;
+  column-gap: 43px;
+}
+
+#drone .reting .inner_icon .like i{
+  color: #F90;
+}
+
+#drone .reting .inner_icon .repote{
+  display: flex;
+  column-gap: 24px;
+  margin-top: 18px;
+  
+}
+
+#drone .reting .inner_icon .repote .up{
+  color: #000;
+  font-size: 11px;
+  font-family: Nunito;
+  padding-left: 20px;
+}
+
+#drone .reting .inner_icon .repote .down{
+  color: #000;
+  font-size: 11px;
+  font-family: Nunito;
+  padding-left: 20px;
+}
+
+#drone .reting .inner_icon .repote .flag{
+  color: #000;
+  font-size: 11px;
+  font-family: Nunito;
+  padding-left: 23px;
+}
+
+#drone .reting .inner_icon{
+  border-bottom: 1px solid #FF9900;
+}
+
+#drone .reting .inner_icon:last-child{
+  border-bottom: none;
+}
+
+#drone .butan{
+  text-align: center;
+  margin-top: 20px;
+}
+
+#drone .butan a{
+  padding: 15px 22px;
+  border: 1px solid #FF9900;
+  color: #F90;
+  font-size: 15px;
+  font-family: Nunito;
+  font-weight: 800;
+}
+
+#drone .about{
+  margin: 51px 0 20px;
+  border: 1px solid #FF9900;
+}
+
+#drone .about .text{
+  padding: 11px 19px;
+  border-bottom: 1px solid #F90;
+}
+
+#drone .about .text h3{
+  color: #F90;
+  font-size: 20px;
+  font-family: Nunito;
+  font-weight: 700;
+  display: flex;
+  column-gap: 4px;
+}
+
+#drone .about .text p{
+  color: #050102;
+  font-size: 20px;
+  font-family: Nunito;
+  font-weight: 700;
+}
+
+#drone .about .form{
+  margin: 20px 19px 23px 19px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #F90;
+  border-radius: 50px;
+ 
+}
+
+#drone .about .form h3{
+  color: #898989;
+  font-size: 14px;
+  font-family: Nunito;
+  background: transparent;
+  padding: 16px 0 15px 21px;
+}
+
+#drone .about .form a {
+  padding: 16px 35px 15px 35px;
+  color: #FFF;
+  font-size: 14px;
+  font-family: Nunito;
+  font-weight: 700;
+  background-color: #F90;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+#drone .about .sell{
+  padding: 0 21px 0 19px;
+}
+
+#drone .about .sell .textt h6{
+  color: #000;
+  font-size: 15px;
+  font-family: Inter;
+  padding: 0 0 7px;
+  border-bottom: 1px solid #FF9900;
+}
+
+#drone .about .sell .hamza{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+#drone .about .sell .hamza .brand{
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+#drone .about .sell .hamza .brand a{
+  padding: 5px 9px;
+  border-radius: 10px;
+  background: #F90;
+  color: #FFFFFF;
+}
+
+#drone .about .sell .hamza .brand p{
+  color: #000;
+  font-size: 15px;
+  font-family: Nunito;
+  font-weight: 600;
+}
+
+#drone .about .sell .hamza .brand h4{
+  color: #898989;
+  font-size: 14px;
+  font-family: Nunito;
+}
+
+#drone .about .sell .hamza .date{
+  color: #000;
+  font-size: 11px;
+  font-family: Nunito;
+}
+
+#drone .about .sell .sir{
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  padding: 0 0 20px;
+  border-bottom: 1px solid #FF9900;
+}
+
+#drone .about .sell .sir a{
+  padding: 5px 9px;
+  border-radius: 10px;
+  background: #F90;
+  color: #FFF;
+}
+
+#drone .about .sell .sir p{
+  color: #000;
+  font-size: 15px;
+  font-family: Nunito;
+  font-weight: 600;
+}
+
+#drone .about .sell .sir h4{
+  color: #898989;
+  font-size: 14px;
+  font-family: Nunito;
+  
+}
+
+#drone .about .sell .sir:last-child{
+  border-bottom: none;
+}
+
+#drone .text{
+  text-align: center;
+}
+
+#drone .text a{
+  padding: 15px 51px;
+  color: #FFF;
+  font-size: 30px;
+  font-family: Nunito;
+  font-weight: 800;
+  background: #FF9900;
+}
+
+#drone .inner_image{
+  margin-top: 20px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+#drone .inner_image .img{
+  height: 178px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#drone .inner_image .text p {
+  color: #000;
+  font-size: 30px;
+  font-family: Nunito;
+  font-weight: 800;
+  padding: 0 0 35px 0;
+}
+
+/* ============================== */

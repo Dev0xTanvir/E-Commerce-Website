@@ -1,0 +1,101 @@
+#samsung .electic_view{
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+}
+
+#samsung .electic{
+    display: flex;
+    justify-content: space-between;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+#samsung .electic .image {
+    width: 204px;
+    height: 204px;
+}
+
+#samsung .electic .image img{
+    width: 204px;
+    height:204px;
+}
+
+#samsung .electic .text{
+    margin: 17px 0 0 18px;
+}
+
+#samsung .electic .text h3{
+    color: #000;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#samsung .electic .text i{
+    color: #FF9900;
+}
+
+#samsung .electic .text .solid{
+    color:  rgba(0, 0, 0, 0.40);
+}
+
+#samsung .electic .text a{
+    color:  rgba(0, 0, 0, 0.40);
+}
+
+#samsung .electic .text p{
+    color: #000;
+    font-family: Nunito;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 7px 0 10px;
+}
+
+#samsung .electic .text .taka{
+    color: #000;
+    font-family: Nunito;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#samsung .electic .text .hard{
+    color: #FF9900;
+    font-size: 25px;
+    margin-top: 8px;
+}
+
+#samsung .electic .icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 9px;
+}
+
+#samsung .electic .icon i{
+    height: 44px;
+    width: 44px;
+    background: #FF9900;
+    color: #ffffff;
+    border-radius: 50%;
+    line-height: 44px;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all linear .2s;
+    border: 1px solid #FF9900;
+    margin-right: 48px;
+    
+}
+
+#samsung .electic .icon i:hover {
+    background: #ffffff;
+    color: #FF9900;
+    border: 1px solid #FF9900;
+}

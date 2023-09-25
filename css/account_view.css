@@ -1,0 +1,228 @@
+#form{
+    padding: 0 0 111px;
+}
+
+#form h2{
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 69px;
+}
+
+#form .from{
+    width: 649px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    margin-top: 28px;
+}
+
+#form .from form{
+    padding: 50px 90px 100px 86px;
+}
+
+#form .from form input{
+    width: 100%;
+    padding: 20px 0 20px 17px;
+    border: 1px solid #898989;
+    border-radius: 50px;
+    outline: 0;
+    box-sizing: border-box;
+    color: #AAA;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    margin: 10px 0 20px;
+}
+
+#form .from form h4{
+    color: #898989;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    display: inline-block;
+}
+
+#form .from .eye {
+    position: relative;
+}
+
+#form .from .eye img {
+    position: absolute;
+    font-size: 25px;
+    color: #898989;
+    top: 45%;
+    right: 16px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+#form .from form .text{
+    display: flex;
+    column-gap: 275px;
+}
+
+#form .from form .date{
+    margin-top: 10px;
+    width: 315px;
+    border: 1px solid #898989;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+#form .from form .date .month{
+    border: 0;
+    outline: 0;
+    width: 120px;
+    padding: 20px 12px 20px 17px;
+    color: #AAA;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    border-right: 1px solid #898989;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+   
+}
+
+#form .from form .date .day{
+    border: 0;
+    outline: 0;
+    width: 87px;
+    padding: 20px 11px;
+    color: #AAA;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    border-right: 1px solid #898989;
+   
+}
+
+#form .from form .date .Year{
+    border: 0;
+    outline: 0;
+    width: 96px;
+    padding: 20px 10px;
+    color: #AAA;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+#form .from form .gender{
+    border: 0;
+    outline: 0;
+    padding: 20px 17px 20px 15px;
+    width: 119px;
+    margin-left: 20px;
+    color: #AAA;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    border: 1px solid #898989;
+    border-radius: 50px;
+}
+
+#form .from form .cheak{
+    height: 15px;
+    width: 15px;
+    background: #FF9900;
+    color: #FFF;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 3px;
+    font-size: 9px;
+    margin-right: 6px;
+}
+
+#form .from form a{
+    color: #AAA;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+   margin-top: 20px;
+}
+
+#form .from form .butan{
+    text-align: center;
+}
+
+#form .from form .butan a{
+    padding: 20px 72px;
+    background: #FF9900;
+    color: #FFF;
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+#form .from form span{
+    color: #4267B2;
+}
+
+#form .from form .sign{
+    text-align: center;
+}
+
+#form .from form .butann{
+    text-align: center;
+}
+
+#form .from form .butann a{
+    padding: 20px 32px 20px 39px;
+    background: #FF9900;
+    color: #FFF;
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+#form .from form .icon{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#form .from form .icon .facebook{
+   height: 59px;
+   width: 59px;
+   background: #4267B2;
+   color: #FFF;
+   text-align: center;
+   line-height: 59px;
+   border-radius: 50px;
+   font-size: 20px;
+}
+
+#form .from form .icon .google{
+   height: 59px;
+   width: 59px;
+   background: #DB4A39;
+   color: #FFF;
+   text-align: center;
+   line-height: 59px;
+   border-radius: 50px;
+   font-size: 25px;
+   margin-left: 20px;
+}
+
+#form .from form .singup{
+    text-align: center;
+}

@@ -1,0 +1,498 @@
+#samsung{
+    padding: 20px 0 43px 0;
+}
+
+#samsung .top_categories{
+    border: 1px solid #FF9900;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+#samsung .top_categories h2{
+    text-align: center;
+    padding: 16px 53px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #FF9900;
+}
+
+#samsung .top_categories ul{
+    padding: 0 12px 0 11px;
+}
+
+#samsung .top_categories ul li{
+    border-bottom: 1px solid #FF9900;
+}
+
+#samsung .top_categories ul li a i {
+    color: #FF9900;
+    margin-right: 11px;
+    font-size: 20px;
+}
+
+#samsung .top_categories ul li a{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+#samsung .top_categories .sale{
+    text-align: center;
+}
+
+#samsung .top_categories .sale a {
+    padding: 14px 17px;
+    background: #FF9900;
+    margin-top: 23px;
+    font-family: Nunito;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+#samsung .top_categoriess{
+    border: 1px solid #FF9900;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 17px;
+    margin: 20px 0;
+}
+
+#samsung .top_categoriess h2{
+    text-align: center;
+    padding: 16px 53px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #FF9900;
+}
+
+#samsung .top_categoriess .squre{
+    padding: 31px 20px 13px 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#samsung .top_categoriess .squre button{
+    height: 22px;
+    width: 22px;
+    border-radius: 22px;
+    background: #F90;
+    outline: 0;
+    border: 0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#samsung .top_categoriess p{
+    color: #000;
+    font-size: 12px;
+    font-family: Nunito;
+    margin-left: 22px;
+}
+
+#samsung .top_categoriess .squre .div{
+    width: 118px;
+    height: 7px;
+    background: #D9D9D9;
+}
+
+#samsung .top_categoriess .sale{
+    text-align: center;
+}
+
+#samsung .top_categoriess .sale a {
+    padding: 10px 27px;
+    background: #FF9900;
+    margin-top: 23px;
+    font-family: Nunito;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+#samsung .top_categoriess1{
+    border: 1px solid #FF9900;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 17px;
+    margin: 20px 0;
+}
+
+#samsung .top_categoriess1 h2{
+    text-align: center;
+    padding: 16px 53px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #FF9900;
+}
+
+#samsung .top_categoriess1 .butn {
+    padding: 28px 25px 28px 23px;
+    display: flex;
+    column-gap: 10px;
+    flex-wrap: wrap;
+}
+
+#samsung .top_categoriess1 .butn .a{
+    padding: 4px 15px;
+    border: 1px solid #FF9900;
+    outline: 0;
+    background: transparent;
+    color: #F90;
+    font-size: 15px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+    line-height: 18px;
+
+}
+
+#samsung .top_categoriess1 .butn button{
+    padding: 4px 15px;
+    outline: 0;
+    color: #000;
+    font-size: 15px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+    line-height: 18px;
+    border: 1px solid #D6D0D0;
+    background: #FFF;
+
+}
+
+#samsung .top_categoriess1 .butn .b {
+    padding: 4px 13px;
+    outline: 0;
+    color: #000;
+    font-size: 15px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+    line-height: 18px;
+    border: 1px solid #D6D0D0;
+    background: #FFF;
+    margin: 10px 0 0 22px;
+}
+
+#samsung .top_categoriess1 .butn .c{
+    padding: 4px 8px;
+    outline: 0;
+    color: #000;
+    font-size: 15px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+    line-height: 18px;
+    border: 1px solid #D6D0D0;
+    background: #FFF;
+    margin: 10px 0 0;
+}
+
+#samsung h5{
+    padding: 11px 70px 11px 79px;
+    color: #FFF;
+    font-size: 15px;
+    font-family: Nunito;
+    font-weight: 800;
+    background: #FF9900;
+    display: inline-block;
+}
+
+#samsung .brand_image{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-top: 20px;
+    overflow: hidden;
+    width: 202px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* =================================== */
+
+#samsung .iconi{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 20px;
+}
+
+#samsung .iconi .text{
+    display: flex;
+    column-gap: 15px;
+}
+
+#samsung .iconi .text p{
+    color: #898989;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#samsung .iconi .text i{
+    font-size: 12px;
+    margin-left: 12px;
+}
+
+#samsung .iconi .inner_icon{
+    display: flex;
+    column-gap: 10px;
+}
+
+#samsung .iconi .inner_icon p{
+    color: #898989;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#samsung .iconi .inner_icon i{
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+#samsung .iconi .inner_icon .mike{
+   font-size: 22px;
+   color: #FF9900;
+}
+
+#samsung .iconi .inner_icon .list{
+    font-size: 22px;
+    color: #898989;
+}
+
+#samsung .electic_product{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    
+}
+
+#samsung .electic_product .product{
+    transition: all linear .4s;
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.25);
+   
+}
+
+#samsung .electic_product .product:hover{
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.25);
+}
+
+#samsung .electic_product .product .image{
+    width: 203px;
+    height: 224px;
+    position: relative;
+}
+
+#samsung .electic_product .product .image .overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: transparent;
+}
+
+#samsung .electic_product .product .image .overlay .text{
+    margin: 13px 8px;
+}
+
+#samsung .electic_product .product .image .overlay .text h4{
+    padding: 4px 8px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    background: green;
+    color: #FFFFFF;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#samsung .electic_product .product .image .overlay .text .discount{
+    padding: 4px 8px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 11px;
+    background: transparent;
+    color: #FFFFFF;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#samsung .electic_product .product .image .overlay .icon {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    row-gap: 9px;
+    margin: -5px 17px 28px;
+    transform: scale(0);
+    transition: all linear .2s;
+}
+
+#samsung .electic_product .product .image .overlay:hover .icon{
+    transform: scale(1);
+}
+
+#samsung .electic_product .product .image .overlay .icon i{
+    height: 44px;
+    width: 44px;
+    background: #FF9900;
+    color: #ffffff;
+    border-radius: 50%;
+    line-height: 44px;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all linear .2s;
+    border: 1px solid #FF9900;
+
+}
+
+#samsung .electic_product .product .image .overlay .icon{
+    visibility: hidden;
+} 
+
+#samsung .electic_product .product .image .overlay:hover .icon{
+    visibility: visible;
+    transition: all linear .2s;
+} 
+
+#samsung .electic_product .product .image .overlay .icon i:hover{
+    background: #ffffff;
+    color: #FF9900;
+    border: 1px solid #FF9900;
+}
+
+#samsung .electic_product .product .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#samsung .electic_product .product .inner_test{
+   margin: 11px 17px 12px 8px;
+}
+
+#samsung .electic_product .product .inner_test .text{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+
+#samsung .electic_product .product .inner_test .icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+#samsung .electic_product .product .inner_test .icon .star i{
+    color: #FF9900;
+    font-size: 12px;
+}
+
+#samsung .electic_product .product .inner_test .icon .star a{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+
+#samsung .electic_product .product .inner_test .icon .star .solid{
+    color: #00000066;
+
+}
+
+#samsung .electic_product .product .inner_test .icon .hard i{
+    font-size: 28px;
+    color: #FF9900;
+}
+
+#samsung .electic_product .product .inner_test .money{
+    display: flex;
+    column-gap: 30px;
+}
+
+#samsung .electic_product .product .inner_test .money .taka p{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+}
+
+#samsung .electic_product .product .inner_test .money .prv p{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    position: relative;
+   
+}
+
+#samsung .electic_product .product .inner_test .money .prv p::after {
+    content: "";
+    width: 59px;
+    height: 1px;
+    top: 9px;
+    left: -4px;
+    position: absolute;
+    background: #000000;
+    transform: rotate(9deg);
+}
+
+#samsung .buton {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#samsung .buton a{
+    padding: 14px 52px;
+    border: 1px solid #FF9900;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FF9900;
+   
+}

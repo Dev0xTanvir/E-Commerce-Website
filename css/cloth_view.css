@@ -1,0 +1,204 @@
+#product_view .dron_slider ul li:first-child button{
+    background: url(../images/Rectangle\ 164.png) no-repeat center/cover;
+}
+
+#product_view .dron_slider ul li:nth-child(2) button{
+    background: url(../images/shirt1.png) no-repeat center/cover;
+}
+
+#product_view .dron_slider ul li:nth-child(3) button{
+    background: url(../images/shirt4.png) no-repeat center/cover;
+}
+
+#product_view .dron_slider ul li:nth-child(4) button{
+    background: url(../images/shirt3.png) no-repeat center/cover;
+}
+
+#product_view .mony p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    padding: 21px 0 12px;
+}
+
+#product_view .mony .box .one {
+    background: transparent;
+}
+
+#product_view .mony .colar1 {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 0;
+    column-gap: 16px;
+}
+
+#product_view .mony .colar1 .black h4{
+    color: #000;
+    font-size: 20px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+}
+
+#product_view .mony .colar1 .box1{
+    display: flex;
+    column-gap: 12px;
+}
+
+#product_view .mony .colar1 .box1 .one1{
+    padding: 6px 19px 6px 19px;
+    border: 1px solid #FF9900;
+    color: #F90;
+    font-size: 15px;
+    font-family: Nunito Sans;
+    font-weight: 600; 
+}
+
+#product_view .mony .colar1 .box1 .two2{
+    padding: 6px 19px 6px 19px;
+    border: 1px solid #D6D0D0;
+    color: #000;
+    font-size: 15px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+}
+
+#product_view .mony .colar1 .box1 .three3{
+    padding: 6px 19px 6px 19px;
+    border: 1px solid #D6D0D0;
+    color: #000;
+    font-size: 15px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+}
+
+
+
+#product_view .buton {
+    padding: 22px 0 18px;
+}
+
+#drone .text a {
+    padding: 6px 102px;
+    color: #FFF;
+    font-size: 30px;
+    font-family: Nunito;
+    font-weight: 800;
+    background: #FF9900;
+}
+
+/* ===================================== */
+
+#drone .combo {
+    margin: 0 0 50px;
+}
+
+#drone .combo .size{
+    display: flex;
+    justify-content: space-between;
+}
+
+#drone .combo .size .divv{
+    border-right: 1px solid #FF9900;  
+}
+
+#drone .combo .size .divv .div{
+    padding: 12px 58px 12px 66px;
+    color: #000;
+    font-size: 20px;
+    font-family: Nunito;
+    font-weight: 700;
+    border-bottom: 1px solid #F90;
+}
+
+#drone .combo .size .divv .div:last-child{
+    border-bottom: none;
+}
+
+#drone .combo .size .div1{
+    border-right: 1px solid #FF9900;  
+}
+
+#drone .combo .size .div1 .div{
+    padding: 12px 60px 12px 62px;
+    color: #000;
+    font-size: 20px;
+    font-family: Nunito;
+    font-weight: 700;
+    border-bottom: 1px solid #F90;
+}
+
+#drone .combo .size .div1 .div:last-child{
+    border-bottom: none;
+}
+
+#drone .combo .size .div2{
+    border-right: 1px solid #FF9900;  
+}
+
+#drone .combo .size .div2 .div{
+    padding: 12px 58px 12px 65px;
+    color: #000;
+    font-size: 20px;
+    font-family: Nunito;
+    font-weight: 700;
+    border-bottom: 1px solid #F90;
+}
+
+#drone .combo .size .div2 .div:last-child{
+    border-bottom: none;
+}
+
+#drone .combo .size .div3{
+    border-right: 1px solid #FF9900;  
+}
+
+#drone .combo .size .div3 .div{
+    padding: 12px 58px 12px 65px;
+    color: #000;
+    font-size: 20px;
+    font-family: Nunito;
+    font-weight: 700;
+    border-bottom: 1px solid #F90;
+}
+
+#drone .combo .size .div3 .div:last-child{
+    border-bottom: none;
+}
+
+#drone .combo .size .div4{
+    border-right: 1px solid #FF9900;  
+}
+
+#drone .combo .size .div4 .div{
+    padding: 12px 58px 12px 71px;
+    color: #000;
+    font-size: 20px;
+    font-family: Nunito;
+    font-weight: 700;
+    border-bottom: 1px solid #F90;
+}
+
+#drone .combo .size .div4 .div:last-child{
+    border-bottom: none;
+}
+
+#drone .combo .size .div5 .div {
+    padding: 12px 66px 12px 71px;
+    color: #000;
+    font-size: 20px;
+    font-family: Nunito;
+    font-weight: 700;
+    border-bottom: 1px solid #F90;
+}
+
+#drone .combo .size .div5 .div:last-child{
+    border-bottom: none;
+}
+
+#drone .reting {
+    margin-top: 0;
+}
+

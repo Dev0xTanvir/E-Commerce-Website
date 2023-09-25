@@ -1,0 +1,20 @@
+
+#form .from form{
+    padding: 58px 111px;
+}
+
+#form .from form input {
+    margin: 10px 0 15px;
+}
+
+#form .from form .text_t{
+    text-align: end;
+}
+
+#form .from form .text_t p{
+    color: #4267B2;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+}
